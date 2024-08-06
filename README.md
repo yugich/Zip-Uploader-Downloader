@@ -4,10 +4,13 @@ This project is a simple Node.js server that allows users to upload ZIP files th
 
 ## Features
 
-- Upload ZIP files to the server.
-- Automatically store files with their original names.
-- Retrieve the latest version of a ZIP file based on its filename.
-- Simple web interface for file uploads.
+
+- **Easy Upload:** Quickly upload ZIP files containing application updates through a simple web interface.
+- **Automatic Versioning:** Keep track of different versions of your application updates and always access the latest version.
+- **Seamless Integration:** Works in conjunction with a launcher ([AppLauncherUpdater](https://github.com/yugich/App-Launcher-Updater)) to download and extract updates, ensuring smooth application performance.
+- **Efficient Management:** Store and manage all your application updates in one place, simplifying the update process.
+- **User-Friendly Interface:** Intuitive design makes it easy for users to interact with the server and manage their updates.
+
 
 ## Prerequisites
 
@@ -67,6 +70,10 @@ The server will start on port 3000 by default. You can access it in your browser
 2. Use the web interface to upload a ZIP file.
 3. The page will display the latest version of the uploaded file.
 4. Use the `/storage` endpoint to download the latest version.
+
+## Integration with AppLauncherUpdater
+
+This project is designed to work seamlessly with [AppLauncherUpdater](https://github.com/yugich/App-Launcher-Updater), a .NET application that checks for updates, downloads the latest ZIP files, and extracts them to keep your client-side applications up-to-date.
 
 ## License
 

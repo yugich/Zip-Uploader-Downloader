@@ -1,4 +1,3 @@
-```markdown
 # ZIP File Upload Server
 
 This project is a simple Node.js server that allows users to upload ZIP files through a web interface. It stores the files on the server and provides endpoints to retrieve the latest uploaded file based on versioning in the file name.

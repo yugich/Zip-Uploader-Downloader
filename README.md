@@ -75,6 +75,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any bug reports or feature requests.
-```
-
-This version of the `README.md` provides an overview of your project, focusing on setup and usage without including the code overview section.
